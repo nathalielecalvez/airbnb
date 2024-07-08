@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: comic, Italic, sans-serif; /* Police par défaut */
+}
+
+/* Style pour la barre de navigation */
+nav {
+    display: flex; /* Utilise flexbox pour disposer les éléments */
+    justify-content: space-between; /* Espacement égal entre les éléments */
+    align-items: center; /* Centre verticalement les éléments */
+    padding: 10px 20px; /* Ajoute du padding autour de la barre de navigation */
+    background-color: #f4f0f0; /* Couleur de fond de la barre de navigation */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Ajoute une ombre légère sous la barre de navigation */
+}
+.photo{
+    display: flex;
+    justify-items: space-between;
+    align-items:center;
+    padding:10px 20px;
+    
+    
+}
+
+/* Style pour les images dans la barre de navigation */
+nav img {
+    height: 70px; /* Définit une hauteur fixe pour les images */
+}
+.nav .logo {
+    width: 120vw;
+}
+
+
+/* Style pour les liens de navigation */
+nav a {
+    margin-left: 20px; /* Ajoute un espacement entre les liens */
+    text-decoration: none; /* Supprime la décoration de texte (soulignement) */
+    color: #333; /* Couleur du texte */
+    font-weight: bold; /* Met le texte en gras */
+}
+
+nav a:hover {
+    color: #007BFF; /* Change la couleur du texte au survol */
+}
+.nav2 {
+    display: flex;
+    justify-content: space-around;/* espacement des photos et icones de la ligne */
+    align-items: center;    
+}
+
+
+.icon {
+    height: 40px;
+}
+
+.texte-icon {font-size: x-small;}
+
+.photo{
+    height: 200px;
+
+}
+
+article {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  }
+
+  footer {
+    background-color: #f7f7f7;
+    padding: 10px 20px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+}
+  
